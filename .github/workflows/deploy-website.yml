@@ -1,9 +1,14 @@
 on:
   push:
     branches: main
-    paths-ignore:
-      - .gitignore
-      - README.md
+    paths:
+      - .github/workflows/deploy-website.yml
+      - pages/**
+      - public/**
+      - styles/**
+      - next.config.js
+      - package-lock.json
+      - package.json
 
 name: Deploy Website
 
