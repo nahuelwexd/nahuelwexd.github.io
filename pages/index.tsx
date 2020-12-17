@@ -34,7 +34,8 @@ export default function Home() {
 				</h1>
 
 				<p className="font-subtitle text-xl font-light">
-					I'm a software developer based in Argentina
+					I'm a software developer based in <strong><a href="https://www.argentina.gob.ar" className="text-blue-500">
+					Argentina</a></strong>
 				</p>
 
 			</header>
