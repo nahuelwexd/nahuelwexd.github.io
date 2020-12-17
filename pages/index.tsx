@@ -69,7 +69,7 @@ export default function Home() {
 							</a>
 						</h3>
 
-						<p className="font-subtitle">
+						<p className="font-subtitle font-light">
 							Explore and watch YouTube videos
 						</p>
 
@@ -92,6 +92,44 @@ export default function Home() {
 							className="text-blue-500">GTK</a></strong>, a toolkit developed by the same foundation that allows creating
 							fantastic interfaces that are fast and, together with <strong><a href="https://gnome.pages.gitlab.gnome.org/libhandy"
 							className="text-blue-500">Handy</a></strong>, are totally <strong>mobile friendly</strong>.
+						</p>
+
+					</div>
+
+				</article>
+
+				<article className="space-y-4">
+
+					<div className="space-y-2">
+
+						<h3 className="font-title text-xl font-bold">
+							<a href="https//github.com/nahuelwexd/Vadi" className="text-blue-500">
+								Vadi
+							</a>
+						</h3>
+
+						<p className="font-subtitle font-light">
+							Dependency injection utilities for Vala
+						</p>
+
+					</div>
+
+					<div className="space-y-2">
+
+						<p>
+							Throughout my learning, I came across <strong><a href="https://en.wikipedia.org/wiki/Inversion_of_control"
+							className="text-blue-500">inversion of control</a> and <a href="https://en.wikipedia.org/wiki/Dependency_injection"
+							className="text-blue-500">dependency injection</a></strong>. I was quickly fascinated by them and wanted
+							to start applying their concept wherever I put code. Great was my disappointment when I saw that Vala, one
+							of the languages that aroused me the most passion, <strong>didn't have libraries that make it easy to use
+							them</strong>, so I decided to create one by myself.
+						</p>
+
+						<p>
+							Making use of dependency injection via construct properties, I managed to create a basic but functional
+							generic factory of objects (commonly called <strong><a href="https://pasztor.at/blog/what-is-the-ioc-container"
+							className="text-blue-500">IoC Container</a></strong>). Soon I'll be adding more tools and improving the
+							developer experience.
 						</p>
 
 					</div>
