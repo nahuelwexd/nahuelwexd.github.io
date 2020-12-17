@@ -53,6 +53,14 @@ export default function Home() {
 
 			</section>
 
+			<section className="space-y-2">
+
+				<h2 className="font-title text-2xl font-extrabold">
+					My works
+				</h2>
+
+			</section>
+
 		</div>
 	)
 }
