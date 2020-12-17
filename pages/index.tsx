@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default function Home() {
 	return (
-		<div className="container mx-auto px-8 pt-16 pb-8">
+		<div className="container mx-auto px-8 pt-16 pb-8 space-y-4">
 
 			<Head>
 
@@ -38,6 +38,19 @@ export default function Home() {
 				</p>
 
 			</header>
+
+			<section className="space-y-2">
+
+				<p>
+					I create web and mobile apps with the motto <em>just works</em> in mind.
+				</p>
+
+				<p>
+					I'm very passionate about <strong>free and open source software</strong> and I like to contribute to the
+					community on all areas that I can on my free times.
+				</p>
+
+			</section>
 
 		</div>
 	)
