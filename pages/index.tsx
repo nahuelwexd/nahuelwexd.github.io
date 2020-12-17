@@ -27,13 +27,17 @@ export default function Home() {
 
 			</Head>
 
-			<h1>
-				Nahuel Gomez Castro
-			</h1>
+			<header>
 
-			<p>
-				I'm a software developer based in Argentina
-			</p>
+				<h1>
+					Nahuel Gomez Castro
+				</h1>
+
+				<p>
+					I'm a software developer based in Argentina
+				</p>
+
+			</header>
 
 		</div>
 	)
