@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default function Home() {
 	return (
-		<div className="container mx-auto">
+		<div className="container mx-auto px-8 pt-16 pb-8">
 
 			<Head>
 
@@ -27,13 +27,13 @@ export default function Home() {
 
 			</Head>
 
-			<header>
+			<header className="space-y-2">
 
-				<h1>
+				<h1 className="font-title text-4xl font-black">
 					Nahuel Gomez Castro
 				</h1>
 
-				<p>
+				<p className="font-subtitle text-xl font-light">
 					I'm a software developer based in Argentina
 				</p>
 
