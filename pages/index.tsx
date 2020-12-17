@@ -15,6 +15,16 @@ export default function Home() {
 					content="#FFFFFF"
 				/>
 
+				<link
+					rel="preconnect"
+					href="https://fonts.gstatic.com"
+				/>
+
+				<link
+					rel="stylesheet"
+					href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Raleway:wght@300;400&family=Source+Sans+Pro:wght@400;700&display=swap"
+				/>
+
 			</Head>
 
 			<h1>
