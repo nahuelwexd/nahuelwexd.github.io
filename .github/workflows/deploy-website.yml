@@ -5,13 +5,13 @@ on:
       - .github/workflows/deploy-website.yml
       - pages/**
       - public/**
-			- next-env.d.ts
+      - next-env.d.ts
       - next.config.js
       - package-lock.json
       - package.json
-			- postcss.config.js
-			- tailwind.config.js
-			- tsconfig.json
+      - postcss.config.js
+      - tailwind.config.js
+      - tsconfig.json
 
 name: Deploy Website
 
