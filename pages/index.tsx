@@ -10,6 +10,11 @@ export default function Home() {
 					Nahuel Gomez Castro
 				</title>
 
+				<meta
+					name="theme-color"
+					content="#FFFFFF"
+				/>
+
 			</Head>
 
 			<h1>
